@@ -7,12 +7,11 @@ The fork was used as it has been updated for later android versions.
 ### Methodolgy
 
 1. Create the library `libuvccamera` in android project
-2. Copy the `libuvccamera/src/main/jni` folder to the AC Pilot `libuvccamera/src/main` folder.
-3. Copy the `libuvccamera/src/main/java/com/serenegiant/usb` folder to the AC
-   Pilot `libuvccamera/src/main/java/ai/aloft/core` folder.
-4. Added the tasks from the `libuvccamera/build.gradle` to the AC Pilot `libuvccamera/build.gradle`
+2. Copy the `libuvccamera/src/main/jni` folder to the `libuvccamera/src/main` folder.
+3. Copy the `libuvccamera/src/main/java/com/serenegiant/usb` folder to the `libuvccamera/src/main/java/ai/aloft/core` folder.
+4. Added the tasks from the `libuvccamera/build.gradle` to the `libuvccamera/build.gradle`
    and included the `sourceSets`.
-5. Added the `libuvccamera` `res` values to the AC Pilot `libuvccamera` `res` folder.
+5. Added the `libuvccamera` `res` values to the `libuvccamera` `res` folder.
 6. Added `com.serenegiant:common` dependency to library `build.gradle`
 7. Added generated libs folder dependency to library `build.gradle``
 8. Added `saki4510t` maven dependency to `settings.gradle`
