@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_usb_camera">Select USB Web Camera</string>
+    <string name="usb_camera">Camera</string>
+    <string name="usb_refresh">Refresh</string>
+    <string name="usb_no_device">No USB camera found</string>
+</resources>
